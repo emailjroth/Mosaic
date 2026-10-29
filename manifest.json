@@ -1,0 +1,36 @@
+{
+  "name": "Mosaic",
+  "short_name": "Mosaic",
+  "description": "Pixel mosaic generator. Select a photo, process it into a grid, and copy every block’s coordinates and RGB values.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "any",
+  "background_color": "#FFFFFF",
+  "theme_color": "#F9F9F9",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["photo", "utilities"],
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
